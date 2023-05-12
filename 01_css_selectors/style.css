@@ -1,0 +1,30 @@
+
+
+/* . is for class selectors */
+/* class is for sepecific requests within the ids */
+.primary-heading{
+    color: blue;
+}
+
+/* # is for id */
+/* multiple selectors */
+ #welcome,#about{
+    background-color: dimgray;
+    border: 1px solid black;
+    color: black;
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+
+/* nested id */
+/* targeting the specfic tag within a div  */
+
+#welcome p{
+    color:aliceblue
+}
+
+/* Element Selectors */
+h2{
+    background-color: yellow;
+}
