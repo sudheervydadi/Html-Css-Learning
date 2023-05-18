@@ -1,0 +1,15 @@
+body {
+  font-family: "Roboto", "Courier New", Courier, monospace;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+#welcome p span {
+  font-weight: bold;
+}
+#about p span {
+  font-style: italic;
+  font-weight: bolder;
+}
+/* sans is the extra curvy parts that are added to letter check the difference in times new roman */
+/* sans serf is without the extra curvy part */
