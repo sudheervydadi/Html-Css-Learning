@@ -7,3 +7,10 @@
 
   line-height: 1.6em;
 }
+
+#colors {
+  color: aquamarine;
+  color: rgb(0, 255, 0);
+  color: rgba(255, 0, 0, 0.5);
+  color: #f0f000;
+}
