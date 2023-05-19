@@ -1,0 +1,35 @@
+/* css Reset */
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: content-box;
+}
+
+#box {
+  background-color: antiquewhite;
+  border: 2px brown solid;
+
+  max-width: 500px;
+  padding: 10px 20px 10px 20px;
+
+  margin: 20px;
+}
+
+#box h1 {
+  margin: 5px;
+  padding-bottom: 2px;
+}
+#box p {
+  margin: 2px;
+  padding-bottom: 2px;
+}
+
+/* notice the differences in the starting of paragraph and heading */
+
+/* border box is setting inside of the contents fixed at highest width */
+/* including padding border and margin on width direction 20*2+20*2+2*2=84 so the content can get a minimium space 500-84=416   and maximum space while expanding is till border it occupies 500 means 20*2 for padding and 2*2  which is 44 for border 500-44=*456 */
+
+/* content box is a setting inside of the contents are not fixed inside the padding is added to the content outside */
+
+/* minimum content box is 416 which is 20*2+20*2+2*2=84  and maximum space for content is 500 while expanding*/
