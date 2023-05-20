@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.style-menu {
+  list-style: none;
+  border: 1px burlywood solid;
+  border-radius: 10px;
+  width: 100px;
+  padding: 20px;
+}
+
+.style-menu li {
+  font-size: 18px;
+  line-height: 2.4em;
+  border-bottom: 1px burlywood solid;
+}
+.style-menu li:last-child {
+  border: none;
+}
+
+.style-menu li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.style-menu li a:hover {
+  color: coral;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: yellowgreen;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.navbar li {
+  float: left;
+  /* after doing this background is vanished so to fix this we need to edit the parent set over flow to auto */
+}
+
+.navbar li a {
+  display: block;
+  text-decoration: none;
+  color: blue;
+  padding: 15px 20px;
+}
+.navbar li a:hover {
+  background-color: darkcyan;
+}
