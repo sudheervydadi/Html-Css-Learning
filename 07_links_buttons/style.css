@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover {
+  color: blue;
+}
+
+.btn {
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  cursor: pointer;
+}

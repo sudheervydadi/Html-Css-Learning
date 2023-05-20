@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.6em;
+}
+
+.box {
+  background-color: burlywood;
+  border: 2px solid blue;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#container {
+  max-width: 600px;
+  /* width: 600px; */
+  margin: 30px auto;
+}
+
+/* max-width is assigned for responsiveness if we use only width then it will get fixed at that 600px and wont reduce in size if we reduce the screen */
+
+/* if we use width then we will get a side scroll bar which is very annoying */
+
+.box p {
+  text-align: center;
+  /* left right center and justify */
+}
+
+/* We are trying to use float which is old technology for responsive design now a days people use flexbox and grid , With floats there is additional problems of clearing  */
+
+#box-2 {
+  float: left;
+  /* notice box two and three got attached */
+  width: 65%;
+}
+
+#box-3 {
+  float: right;
+  width: 30%;
+}
+
+/* look what happened to box-4 we need to clear in order to push the new content down */
+
+.clr {
+  clear: both;
+}
