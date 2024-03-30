@@ -17,37 +17,137 @@
     </header>
             
     <article>
-      <form action="">
-        <label for="Username">Username:</label>
-        <input type="text" id="Username" /> <br />
-        
-        <label for="Password">Password:</label>
-        <input type="password" id="Password" /><br />
+                  
+      <form action="success.html" method="get">
+                        
+        <table>
+                              
+          <tr>
+                                    
+            <td><br />Username:</td>
+                                    
+            <td>
+              <br /><input
+                type="text"
+                name="UserName"
+                placeholder="Enter your username"
+                required
+              />
+            </td>
+                                
+          </tr>
+                              
+          <tr>
+                                    
+            <td>Password:</td>
+                                    
+            <td>
+              <input
+                type="password"
+                name="name"
+                placeholder="Enter your password"
+                required
+              />
+            </td>
+                                
+          </tr>
+                              
+          <tr>
+                                    
+            <td>Gender:</td>
+                                    
+            <td>
+              Male<input type="radio" name="user_gender" value="M" />&nbsp;
+              Female<input type="radio" name="user_gender" value="F" />
+            </td>
+                                
+          </tr>
+                              
+          <tr>
+                                    
+            <td>DOB:</td>
+                                    
+            <td><input type="date" name="user_date" required /></td>
+                                
+          </tr>
+                              
+          <tr>
+                                    
+            <td>Phone number:</td>
+                                    
+            <td>
+              <input
+                type="text"
+                name="phone"
+                placeholder="Enter your phonenumber"
+                required
+                pattern="0-9"
+              /><br /><br />
+            </td>
+                                
+          </tr>
+                              
+          <tr>
+                                    
+            <td>Email ID:</td>
+                                    
+            <td>
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Enter your email"
+                required
+              />
+            </td>
+                                
+          </tr>
+                              
+          <tr>
+                                    
+            <td><br />Languages Known:</td>
+                                    
+            <td>
+              <br /><input
+                type="checkbox"
+                name="Langauges"
+                value="English"
+                checked="checked"
+              />English
+              <input type="checkbox" name="Langauges" value="Hindi" /> Hindi
+              <input type="checkbox" name="Langauges" value="French" /> French
+            </td>
+                                
+          </tr>
+                              
+          <tr>
+                                    
+            <td><br />Profile pic:</td>
+                                    
+            <td><br /><input type="file" required /></td>
+                                
+          </tr>
+                              
+          <tr>
+                                    
+            <td>
+              <br /><br /><input type="submit" value="Register" />           
+                           
+            </td>
+            <td>
+              <br /><br /><input type="reset" value="Reset" />               
+                   
+            </td>
+          </tr>
 
-        <label for="Gender">Gender:</label>
-        <input type="radio" id="Gender" name="Gender" value="Male" checked> Male
-        <input type="radio" id="Gender" name="Gender" value="Female">Female<br>
-
-        <label for="Date">DOB:</label>
-        <input type="date" id="Date"> <br>
-
-        <label for="PhoneNumber">Phone Number:</label>
-        <input type="number" name="PhoneNumber" id="PhoneNumber"> <br>
-
-        <label for="Email">Email ID:</label>
-        <input type="email" name="Email" id="Email"> <br>
-
-        <label for="Language">Languages Known:</label>
-        <input type="checkbox" name="Language" id="Language" value="English" checked>English
-        <input type="checkbox" name="Language" id="Language" value="Hindi">Hindi
-        <input type="checkbox" name="Language" id="Language" value="French">French <br>
-
-        <label for="ProfilePic">Profile Pic:</label>
-        <input type="file" name="ProfilePic" id="ProfilePic"><br>
-
-        <input type="button" value="Register" type="submit">
-        <input type="button" value="Reset" type="reset"> <br>
-         
+                          
+        </table>
+                    
+      </form>
+                    <br />
+      <br />
+      <br />
+      <br />
+              
     </article>
             
     <footer>
