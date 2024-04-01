@@ -15,6 +15,9 @@
         -May want to add "border-box for "box-sizing so padding does not affect width
         -Reset margin and padding 
        */
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
       }
 
       body {
@@ -22,7 +25,7 @@
           -Background color is #344a72
         */
         background-color: #344a72;
-        font-family: Raleway, sans-serif;
+        font-family: "Raleway", sans-serif;
       }
 
       a {
@@ -39,7 +42,8 @@
         -May want to add some padding
         */
         max-width: 400px;
-        margin: auto;
+        /* margin: auto; */
+        margin: 30px auto;
         padding: 20px;
       }
 
@@ -47,7 +51,8 @@
         /* 
           This is the white area around the form and heading, etc
         */
-        background-color: white;
+        color: white;
+        background-color: black;
       }
 
       .form-wrap h1,
@@ -62,6 +67,7 @@
         /* 
           Each label, input is wrapped in .form-group
         */
+        margin-top: 10px;
         padding: 20px;
       }
 
@@ -70,6 +76,7 @@
           Label should be turned into a block element
         */
         display: block;
+        padding-bottom: 10px;
       }
 
       .form-wrap .form-group input {
@@ -78,6 +85,8 @@
         */
         width: 100%;
         padding: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
       }
 
       .form-wrap button {
@@ -105,21 +114,21 @@
           Bottom text is smaller
         */
         font-size: 12px;
+        padding: 10px;
       }
 
       footer {
         /* 
         Should be centered
        */
-        display: inline-block;
-        margin: auto;
+        text-align: center;
       }
 
       footer a {
         /* 
           Footer link color is #49c1a2
         */
-        text-emphasis-color: #49c1a2;
+        color: #49c1a2;
       }
     </style>
   </head>
