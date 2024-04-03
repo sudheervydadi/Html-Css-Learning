@@ -1,19 +1,52 @@
 #container {
+  background: #555;
   display: flex;
+  /* setting the direction of main axis */
   flex-direction: row;
-  flex-wrap: wrap;
+
+  /* To adjust alinement main-axis */
+  justify-content: center;
+  /* flex-end
+  flex-start
+  center
+  space-around  (space in edges will be half of the inbetween )
+  space-between (space will go between items stick to end)
+  space-evenly*/
+  height: 600px;
+  /* To adjust alinement cross-axis */
+  align-items: flex-start;
+  /*
+  default is stretch
+  flex-start /baseline
+  flex-end
+  center
+   */
+
+  /* when wrap is present when many items are present  */
+  /* flex-wrap: wrap;
+  align-content: center; */
 }
 .item {
   background: #f4f4f4;
-  border: #ccc solid 1px;
+
   padding: 1rem;
   text-align: center;
   margin: 0.75rem;
-  flex: 1;
+  border: #ccc solid 1px;
+  flex: 0 3 auto;
+  /* without flex value the items inside occuppy default space */
+  /* width: 200px; */
+  flex-basis: 200px;
+  /* flex basis is take the dimension of the flex directoin of parent*/
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
 }
-.item:first-child {
-  flex: 2;
+
+.item-2 {
+  align-self: flex-end;
 }
-.item:last-child {
-  flex: 2;
-}
+
+/* Inside parent display Flex is compulsory 
+Default direction is row if un mensioned  */
